@@ -1,0 +1,221 @@
+@font-face{
+	font-family: 'NanumBarunGothicLight';
+	src: url('../fonts/NanumBarunGothicLight.otf'), url('../fonts/NanumBarunGothicLight.ttf');
+}
+@font-face{
+	font-family:'NanumGothic';
+	src: url('../fonts/NanumGothic.otf'),url('../fonts/NanumGothic.ttf');
+}
+@font-face{
+	font-family:'NanumGothicBold';
+	src: url('../fonts/NanumGothicBold.otf'),url('../fonts/NanumGothicBold.ttf');
+}
+@font-face{
+	font-family:'NanumGothicLight';
+	src: url('../fonts/NanumGothicLight.otf'),url('../fonts/NanumGothicLight.ttf');
+}
+
+
+html{
+	width:1287px;
+	height:1061px;
+}
+body{
+	width:1287px;
+	height: 1591px;
+}
+body{
+
+	overflow-x : hidden;
+
+	background-image: url("../images/background_main3.png");
+	background-repeat: no-repeat;
+	background-size: 1287px 1591px;
+
+	background-attachment : fixed; 
+
+	font-family: "NanumBarunGothicLight";
+ }
+
+ *::selection{
+	background-color: #95b5dd; color:white;
+ }
+
+div.page_part1{
+	width: 1313px;
+	height: 690px;
+	margin:-1%;
+
+	background-image: url("../images/background_main3.png");
+	background-repeat: no-repeat;
+	backgroud-position: top;
+	background-size: 100% 100%;
+	background-attachment: scroll;
+}
+
+div.menu{
+	width:82%;
+
+	margin-left: 8%;
+	border-bottom:  1px solid #d0d0d0;
+}
+
+a.main img{
+		margin-top: 3%;
+		
+		margin-bottom: 1%;
+
+		width: 13%;
+		height: 5%;
+}
+
+nav.menu_bar{
+				position:absolute;
+				width:50%;
+				height:5%;
+				
+				margin-top : -4%;
+				left: 70%;
+
+
+				padding-left: 2%;
+}
+nav.menu_bar a.menu{
+
+			color: white;
+			
+			font-size:1.2em;
+
+			margin-right: 9%;
+
+			width: 10%;
+			height : 4%;
+
+			bottom: 3%;
+
+			transition: all .5s;
+}
+nav.menu_bar a.menu:active { text-decoration: none ; }
+nav.menu_bar a.menu:link { text-decoration: none; }
+nav.menu_bar a.menu:visited { text-decoration: none ; }
+nav.menu_bar a.menu:hover {  text-decoration: none; 
+	color: #f2f2f2;
+	text-shadow: 0px 0px 4px white;
+	}
+
+
+
+
+div#main_text{
+		position : relative;
+
+		width: 45%;
+		height: 30%;
+	
+		font-size: 1.9em;
+
+		margin: 7%;
+
+		margin-top : 17%;
+		
+		
+
+}
+
+
+div#main_text p.the_content{
+		font-size: 1.2em;
+		color: white;
+
+}
+
+
+
+
+div#container{
+		position: relative;
+		width: 1313px;
+		height: 875px;
+	
+		margin-left: -1%;
+
+		background: rgba(255,255,255,0.8);
+}
+
+			div#container_1{
+
+					position: absolute;
+					width: 100%;
+					height: 50%;
+				
+
+					background: rgba(255,255,255,0.8);
+				
+
+			}
+
+			div#container_2{
+					position: absolute;
+					width:100%;
+					height: 50%;
+
+					margin-top: 33.35%;
+					
+					
+					background: rgba(255,255,255,0.8);
+			}
+
+div#container1{
+	position:relative;
+		width: 1313px;
+		height: 795px;
+		margin-left:-1%;
+		margin-bottom: -2%;
+		background: rgba(0,0,0,0.9);
+}
+
+footer{
+	
+	background : none;
+	width: 1313px;
+	height: 100px;
+	
+	margin : -1%;
+	margin-top: 2%;
+
+	background-color: #696969;
+}
+
+footer p.content{
+
+	text-align : right;
+	color: white;
+
+	margin-right : 4%;
+
+}
+
+footer p.content #up{
+	width: 91px;
+	height:19px;
+}
+footer p.content #up:active { text-decoration: none ; }
+footer p.content #up:link { text-decoration: none; }
+footer p.content #up:visited { text-decoration: none ; }
+footer p.content #up:hover {  text-decoration: none; 
+	text-shadow: 0px 0px 1px white;
+	cursor: pointer;
+} 
+
+footer p.content #up_1{
+	width:81px;
+	height: 19px;
+}
+footer p.content #up_1:active { text-decoration: none ; }
+footer p.content #up_1:link { text-decoration: none; }
+footer p.content #up_1:visited { text-decoration: none ; }
+footer p.content #up_1:hover {  text-decoration: none; 
+	text-shadow: 0px 0px 1px white;
+	cursor: pointer;
+} 
+/* 이 아래부터 추가 스타일*/
